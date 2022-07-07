@@ -31,6 +31,138 @@
 <div id="banner" class="container">
 <div class="title" style="text-align: left">
 <h2>RusherHack</h2>
+<span class="byline">Changelog - v1.3 (July 4th 2022)</span><br><br>
+<h1>Added</h1>
+<ul>
+<li>ChorusControl module</li>
+<li>TickShift module</li>
+<li>Background module</li>
+<li>TrueDurability module</li>
+<li>AntiQuit module</li>
+<li>AutoSorter module</li>
+<li>AntiSpam module</li>
+<li>AutoTrader module</li>
+<li>Logo hud element</li>
+<li>2b2tQueue hud element</li>
+<li>Weather hud element</li>
+<li>*nuker block command</li>
+<li>*disconnect command</li>
+<li>Horizontal mode in BowSpam BowBomb</li>
+<li>Delay setting in AutoRespawn</li>
+<li>YLevel, Time, and StopAutoRC settings in AutoDisconnect</li>
+<li>Volume setting in Hitmarkers Sound</li>
+<li>Others setting in RangeCircle</li>
+<li>Durability mode in RainbowEnchant</li>
+<li>Damage setting in Notifications</li>
+<li>Smart and SafeRange settings in HoleFiller</li>
+<li>SwitchBob setting in Animations</li>
+<li>Fireworks setting in ForcePlace</li>
+<li>FakePlayers setting in Entities</li>
+<li>Bobbing setting in NoRender Players</li>
+<li>Eating and Criticals settings in NoRender Particles</li>
+<li>Range setting in NoRender NoCluster</li>
+<li>IgnoreHotbar setting in InventoryCleaner</li>
+<li>GlobalColor setting in Hud</li>
+<li>Hide setting in Nametags TotemPops</li>
+<li>ChatEmbed and EnderChests settings in ExtraTooltip</li>
+<li>ItemFrames setting in ExtraTooltip Shulkers</li>
+<li>Dispensers, IgnoreDungeonChests, and ToggleOnDisconnect settings in BaseFinder</li>
+<li>SelfRunOut setting in PvpInfo Potions</li>
+<li>SilkTouch setting in AutoTool</li>
+<li>Throw and SilentThrow settings in EXPFast</li>
+<li>Custom mode in RichPresence</li>
+<li>Mode setting in HoleESP Glow</li>
+<li>Copy mode in ExtraScreenshot</li>
+<li>Width setting in Search DrawBox Outline</li>
+<li>GlintSpeed setting in RainbowEnchant</li>
+<li>Off mode and Search setting in ExtraChest</li>
+<li>Blocks setting in HitboxIgnore</li>
+<li>Animations setting in ExtraChat</li>
+<li>Metadata setting in FeatureList</li>
+<li>Icons setting in PotionEffects</li>
+<li>Shulkers setting in DubCounter</li>
+<li>Interdimensional and Simple settings in Position</li>
+<li>HotbarLock setting in Armor hud element</li>
+<li>ShowHidden setting in BindList</li>
+<li>CombineDuplicates setting in EntityList</li>
+<li>CombineDuplicates setting in EntityList</li>
+<li>ShowHidden, Enabled, and Disabled settings in BindList</li>
+<li>Label setting in text hud elements</li>
+<li>Color, Animations, and SortMode settings in List hud elements</li>
+<li>shulkerbox wildcard to *search blocks command</li>
+<li>the ability to open other folders in the .minecraft directory from the *openfolder command</li>
+<li>Hide Text and Toggle All buttons in Packets window</li>
+<li>timestamps in Console window</li>
+<li>buttons to modify AutoReconnect delay on the disconnected screen</li>
+<li>the ability to select a specific mode value by middle clicking the mode setting</li>
+<li>the ability to set a precise value in number setting by middle clicking</li>
+<li>hold binds in modules. hold the key while binding for 1 second to toggle</li>
+<li>JVM argument to disable rusherhack baritone integration, "-Drusherhack.disableBaritoneIntegration=true"</li>
+</ul>
+<h1>Fixed</h1>
+<ul>
+<li>AutoArmor being buggy while in containers</li>
+<li>AutoRespawn DeathCoords spam</li>
+<li>AutoDisconnect disconnecting when joining a server to the death screen</li>
+<li>AutoDisconnect disconnecting when joining a server to the death screen</li>
+<li>Hitmarkers not being directly in the middle of the screen</li>
+<li>Aura rotate bugs while using WeaponCheck setting</li>
+<li>InventoryCleaner and ExtraChest commands being broken</li>
+<li>Rendering issues with NoRender NoCluster</li>
+<li>AutoMount Horses setting not working on skeleton horses</li>
+<li>FullBright bug</li>
+<li>FakePlayers not having invulnerability ticks</li>
+<li>bug when opening Windows module from the ClickGui</li>
+<li>ExtraChat Mentions Highlight formatting bug</li>
+<li>Anchor delay bug</li>
+<li>Friend Manager window not updating</li>
+<li>OnlineTime hud element being affected by Timer module</li>
+<li>LogoutSpots Ghost visual bug</li>
+<li>AutoArmor Durability setting not working with Elytras</li>
+<li>not being able to log into Microsoft accounts in the Alt Manager on older Java versions</li>
+<li>some commands printing "null" into the Console window</li>
+<li>MobOwner bugs</li>
+<li>AutoArmor not equiping armor when a gui is open</li>
+<li>SearchBar bug when typing in slider button</li>
+<li>Toggling Speed crashing on the main menu</li>
+<li>Alt Manager crash</li>
+<li>Search Sound crash</li>
+<li>Linux and macOS hwid inconsistencies</li>
+</ul>
+<h1>Changed</h1>
+<ul>
+<li>Search logic rewritten</li>
+<li>List hud elements rewritten</li>
+<li>NoSlow 2b2t setting updated</li>
+<li>Timer now takes timer priority over other modules</li>
+<li>ElytraFly InstantFly no longer tries to takeoff while in liquid</li>
+<li>Sent chat history no longer gets cleared</li>
+<li>MiddleClick Pearl consistency improved</li>
+<li>Waypoints command dimension recognition improved</li>
+<li>ExtraScreenshot now saves images asynchronously</li>
+<li>ExtraScreenshot now copies screenshot links with https protocol instead of http</li>
+<li>AutoSurround Center setting improved</li>
+<li>Step Timer setting improved</li>
+<li>RotationLock Custom settings now allows more precision</li>
+<li>ExtraTooltip settings refactored</li>
+<li>Speed Strafe mode no longer jumps if you are in liquid</li>
+<li>Open RusherHack guis on the disconnected screen</li>
+<li>AutoReconnect button placement improved</li>
+<li>HoleESP Double setting improved</li>
+<li>BreakESP self rendering improved</li>
+<li>ESP Tunnels setting is now multithreaded</li>
+<li>damage values can now be specified for ExtraChest items</li>
+</ul>
+<h1>Removed</h1>
+<ul>
+<li>AntiBot module</li>
+<li>AntiBot module</li>
+<li>AutoIgnore module</li>
+<li>Particles module</li>
+<li>Secret main menu shader</li>
+<li>AntiDisconnect setting in AutoReconnect</li>
+<li>Chat setting in AntiAFK</li>
+</ul>
 <span class="byline">Changelog - v1.2.3 (September 5th 2021)</span><br><br>
 <h1>Added</h1>
 <ul>
